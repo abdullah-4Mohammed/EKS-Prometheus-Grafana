@@ -1,7 +1,7 @@
 variables:
   region: 'eu-west-2'
   awsConnection: "AzToAWS"
-  serviceName: three-tiers-full
+  serviceName: Prometheus-Grafana
   backendBucketName: "backend-tfstate"
   backendBucket: "$(serviceName)-$(backendBucketName)-$(environment)-$(regionShortName)"
   regionShortName: euw2
@@ -11,6 +11,6 @@ variables:
   dockerFile_Backend: "$(System.DefaultWorkingDirectory)/src/backend/Dockerfile"
   dockerFile_Frontend: "$(System.DefaultWorkingDirectory)/src/frontend/Dockerfile"
   dockerRegistryServiceConnection: "ecr-docker-sercon"
-  awsAccountId: "626635436469"
+  awsAccountId: "600627317106"
   clusterName: "$(serviceName)-eks"
   imageUrl: "$(awsAccountId).dkr.ecr.$(region).amazonaws.com/$(imageRepository):latest"
