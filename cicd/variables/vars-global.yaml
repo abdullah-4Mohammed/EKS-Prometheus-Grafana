@@ -1,7 +1,7 @@
 variables:
   region: 'eu-west-2'
   awsConnection: "AzToAWS"
-  serviceName: Prometheus-Grafana
+  serviceName: prometheus-grafana
   backendBucketName: "backend-tfstate"
   backendBucket: "$(serviceName)-$(backendBucketName)-$(environment)-$(regionShortName)"
   regionShortName: euw2
