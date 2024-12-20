@@ -1,6 +1,6 @@
-Project: Three-Tier Application Deployment
+Project: Setting Up Prometheus And Grafana on AWS EKS - Three-Tier Application Deployment
 Overview
-This project demonstrates the deployment of a three-tier application consisting of a frontend, backend, and MongoDB service. The application is built with Docker and deployed to Amazon EKS (Elastic Kubernetes Service). The frontend and backend services communicate via Kubernetes Ingress and external DNS routing.
+This project is Setting Up Prometheus And Grafana on AWS EKS based on previous project which is demonstrates the deployment of a three-tier application consisting of a frontend, backend, and MongoDB service. The application is built with Docker and deployed to Amazon EKS (Elastic Kubernetes Service). The frontend and backend services communicate via Kubernetes Ingress and external DNS routing.
 
 Components
 Frontend: A Vue.js application hosted on NGINX, served as a static site.
