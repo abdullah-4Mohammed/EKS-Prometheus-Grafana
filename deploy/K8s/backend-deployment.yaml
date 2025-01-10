@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: backend
-        image: 626635436469.dkr.ecr.eu-west-2.amazonaws.com/three-tiers-full-nonprod-euw2:backend-latest
+        image: 600627317106.dkr.ecr.eu-west-2.amazonaws.com/prometheus-grafana-nonprod-euw2:backend-latest
         env:
         - name: DATABASE_USER
           value: admin
